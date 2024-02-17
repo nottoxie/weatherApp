@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'PulpMedium';
+  src: url(../src/Components/Assets/PulpDisplayMedium.ttf) format("truetype");
+}
+
+
+
+*{
+  font-family: 'PulpMedium';
+    background-color: #12181b;
+    color: rgb(240, 255, 255);
+    list-style: none;
+    scroll-behavior: smooth;
+    
+  }
+
+
+a:visited{
+  color: rgb(240, 255, 255);
+  transition-duration: 1s;
+}
+a:hover {
+  color: rgb(240, 255, 180);
+  transition-duration: .5s;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(240, 255, 255);
+  transition-duration: .8s;
+}
+
+::-webkit-scrollbar{
+  opacity: 0;
+}
+

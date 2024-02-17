@@ -1,0 +1,52 @@
+.weather{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    padding: 10vh;
+    gap: 1vh;
+}
+
+.weather__smalltxt{
+    align-self: flex-end;
+    font-size: 15px;
+}
+
+.weather__TYPEtxt input{
+    color: rgb(240, 255, 180);
+    cursor: pointer;
+    border: none;
+    transition-duration: 1s;
+    outline: none;
+}
+
+.weather__TYPEtxt input::placeholder{
+    color: rgb(240, 255, 180);
+    cursor: pointer;
+    border: none;
+    transition-duration: 1s;
+    outline: none;
+}
+
+.weather__TYPEtxt:hover input{
+    transition-duration: 1s;
+    color: rgb(255, 180, 241);
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.weather__TYPEtxt:hover input::placeholder{
+    transition-duration: 1s;
+    color: rgb(255, 180, 241);
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.weather__TYPEtxt:hover input::placeholder::content{
+    transition-duration: 1s;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: transparent;
+    outline: none;
+}

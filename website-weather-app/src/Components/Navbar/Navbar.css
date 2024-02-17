@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    padding: 32px;
+    justify-content:space-around;
+    font-size: 25px;
+    list-style: none;
+
+    gap: 80vh;
+}
+
+.navbar__logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;;
+}
+
+.navbar__wtr{
+    cursor: pointer;
+    color: rgb(240, 255, 255);
+    transition-duration: .8s;
+}
+
+.navbar__wtr:hover{
+    color: rgb(240, 255, 180);
+    transition-duration: .5s;
+}
+
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    gap: 10vh;
+}
+
+
+@media screen and (max-width:767px){
+    .navbar{
+        display: flex;
+        padding: 32px;
+        font-size: 25px;
+        list-style: none;
+
+    }
+}
