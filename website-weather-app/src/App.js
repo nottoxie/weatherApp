@@ -11,12 +11,10 @@ function App() {
       <BrowserRouter>
       <Navbar/>
       <Routes>
+        <Route path='/' element={<Weathers/>}/>
         <Route path='/UpdateLogs' element={<UpdateLogs/>}/>
       </Routes>
       </BrowserRouter>
-      <br></br>
-      <Weathers/>
-
     </div>
   );
 }

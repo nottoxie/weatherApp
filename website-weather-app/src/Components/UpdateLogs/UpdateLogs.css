@@ -1,0 +1,42 @@
+
+.updt__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.updt__disc p{
+    padding-left: 11vh;
+    margin: 0;
+}
+
+h2{
+    padding-left: 11vh;
+    margin: 0;
+}
+
+h2{
+    margin-left: 5vh;
+    font-size: 20px;
+}
+
+
+
+.text__colour1{
+    color: #149ECA;
+}
+
+.format{
+    align-self: center;
+    position: relative;
+    width: 450px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 16px 14px 20px #0000000c;
+    padding: 20px;
+    margin-right: 10vh;
+    color: rgb(240, 255, 255);
+    background-image: url('../Assets/rainA.gif');
+}

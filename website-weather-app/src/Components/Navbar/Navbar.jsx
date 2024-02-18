@@ -15,7 +15,9 @@ export const Navbar = () => {
         <a href="https://github.com/"><img src={logo} alt=''/></a>
         </div>
           <ul className='navbar__menu'>
-            <li className='navbar__wtr' onClick={()=>{setMenu("weather")}}>Weather{menu==="weather"?<hr/>:<></>}</li>
+            <li className='navbar__wtr' onClick={()=>{setMenu("weather")}}>
+              <a href='../Weather/Weathers.jsx'><Link to='/'>Weather{menu==="weather"?<hr/>:<></>}</Link></a>
+            </li>
             <li onClick={()=>{setMenu("github")}}>
               <a href="https://github.com/nottoxie" target="_blank" rel='noreferrer' >GitHub{menu==="github"?<hr/>:<></>}</a>
             </li>

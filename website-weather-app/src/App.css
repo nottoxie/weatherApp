@@ -7,17 +7,24 @@
   src: url(../src/Components/Assets/PulpDisplayMedium.ttf) format("truetype");
 }
 
-
+body{
+  background-color: #12181b;
+}
 
 *{
   font-family: 'PulpMedium';
-    background-color: #12181b;
     color: rgb(240, 255, 255);
     list-style: none;
     scroll-behavior: smooth;
-    
-  }
+}
 
+button{
+  background-color: transparent;
+}
+
+input{
+  background-color: transparent;
+}
 
 a:visited{
   color: rgb(240, 255, 255);
